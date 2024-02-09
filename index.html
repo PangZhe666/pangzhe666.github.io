@@ -1,0 +1,279 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>新年快乐</title><!-- 这是网页标题 -->
+<style>
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+
+@font-face {
+    font-family: mono;
+    src: url(../fonts/JetBrainsMono-Medium.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+::placeholder {
+    color: #009bff66;
+}
+
+a {
+    text-decoration: none;
+}
+
+body .container {
+    background-color: #1e1e22;
+    box-sizing: border-box;
+    height: 500vw;
+    padding: 0 2vw;
+}
+
+body .container .main {
+    margin: 0 auto;
+    width: 80vw;
+}
+
+body .container .main .header {
+    height: 60px;
+    position: relative;
+}
+
+body .container .main .header .nav {
+    height: 60px;
+    display: inline-block;
+}
+
+body .container .main .header .nav li {
+    float: left;
+    height: 60px;
+    line-height: 60px;
+    margin: 0 1vw;
+    font-family: 'Poppins', serif;
+    font-size: 1vw;
+    list-style: none;
+}
+
+body .container .main .header .nav li a {
+    border-bottom: 1px solid #009bff;
+    color: #ddd;
+    transition: all 0.5s;
+}
+
+body .container .main .header .nav li a:hover {
+    color: #009bff;
+}
+
+body .container .main .header .nav li p {
+    color: #009bff;
+}
+
+body .container .main .header .btn-login {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 60px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+body .container .main .header .btn-login .nav-1 {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    line-height: 40px;
+    color: #000;
+    background-color: #009bff;
+    border-radius: 20px;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+body .container .main .header .btn-login .nav-1:hover {
+    color: #ddd;
+}
+
+body .container .main .header .btn-login .nav-1 ion-icon {
+    height: 40px;
+    padding-right: 10px;
+}
+
+body .container .main .header .btn-login .nav-2 {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    line-height: 40px;
+    color: #ddd;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+body .container .main .header .btn-login .nav-2:hover {
+    color: #009bff;
+}
+
+body .container .main .header .btn-login .nav-2 ion-icon {
+    height: 40px;
+    padding-right: 10px;
+}
+
+body .container .main section .title-bar {
+    height: 10vw;
+}
+
+body .container .main section .title-bar .title {
+    border-right: 2px solid #000;
+    margin-top: 4vw;
+    display: inline-block;
+    font-size: 6vw;
+    font-family: 'mono', serif;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    white-space: nowrap;
+    animation: borders 1s infinite normal,
+    widths 4s steps(16);
+}
+
+@keyframes borders {
+    from {
+        border-right-color: #000;
+    }
+
+    to {
+        border-right-color: #ddd;
+    }
+}
+
+@keyframes widths {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 16ch;
+    }
+}
+
+.about {
+    margin-top: 3vw;
+}
+
+.about p {
+    font-size: 1.5vw;
+    font-family: 'Poppins', serif;
+    color: #fff;
+}
+
+.func-1 {
+    margin-top: 5vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.func-1 .func-1-left {
+    width: 55vw;
+    margin-right: 5vw;
+    border: 2px solid #ffffff;
+    border-radius: 25px;
+}
+
+.func-1 .func-1-left #foo-bar {
+    padding: 1vw;
+}
+
+.func-1 .func-1-left p {
+    font-family: "Poppins", serif;
+    font-size: 1.5vw;
+    color: #fff;
+    padding-left: 2vw;
+}
+
+#daily-words {
+    padding-left: 3vw;
+}
+
+.shop {
+    display: flex;
+    flex-direction: column;
+    margin: 2vw 0;
+}
+
+.shop a{
+    color: #009bff;
+    transition: all .5s;
+}
+
+.shop a:hover{
+    color: white;
+}
+
+.shop p {
+    font-family: "Poppins", serif;
+    font-size: 1.5vw;
+    color: #fff;
+    padding-left: 1vw;
+    border-left: 2px solid #009bff;
+}
+
+.shop h2 {
+    color: white;
+    margin-top: .5vw;
+    font-weight: 300;
+    font-family: "Poppins", serif;
+    font-size: 1.5vw;
+}
+
+.shop h1{
+    font-family: 'Poppins', serif;
+    font-size: 3vw;
+    font-weight: 400;
+    color: #fff;
+    transition: all 1s;
+}
+
+.shop h1:hover {
+    color: #009bff;
+}
+</style>
+
+</head>
+<body>
+    <style>
+        body .container {
+            background-color: black;
+            box-sizing: border-box;
+            height: 500vw;
+            padding: 0 2vw;
+        }
+    </style>
+    <div class="container">
+        <div class="main">
+            <ul class="header">
+                <ul class="nav">
+                    <li>
+                        Back to top
+                    </li>
+                </ul>
+            </ul>
+            <div class="shop" id="talk">
+                <h1 style="color:white;">输入你的昵称</h1>
+                <input type="text" style="width: 300px;height:30px;" id="a-name"><br>
+                <button style="width: 60px;height:25px;" onclick="get()">提交</button>
+            </div>
+            <script>
+                function get(){
+                    var butt = document.getElementById("a-name").value;
+                    // alert(butt);
+                    window.location = "./index1.html?name="+butt;
+                    window.sessionStorage.setItem('name', butt);  
+                }
+            </script>
+        </div>
+    </div>
+  </body>
+</html>
